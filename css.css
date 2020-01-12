@@ -1,0 +1,43 @@
+ 
+ input{
+     margin-right: auto;
+ }
+
+.weather-chart{
+    display: flex;
+    justify-content: center;
+    margin-right: 40%;
+}
+
+.weather-chart__day{
+    padding: none;
+ width: 150px;
+ height: 200px;
+ text-align: center;
+ border: 2px solid rgb(19, 177, 19);
+}
+.weather-chart__day *{
+    height: 30px;
+}
+
+.weather-chart__day--title{
+ background-color: rgb(19, 177, 19);
+ color: white;
+ height: 30px;
+ font-size: 18px;
+ font-weight: bolder;
+}
+/* 
+.weather-chart__day--description{
+  
+} */
+.weather-chart__day--temp {
+    color: orangered;
+  font-size: 16px;
+  font-weight: bold;
+}
+ 
+msg{
+    color: white;
+}
+
